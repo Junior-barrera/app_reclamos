@@ -1,6 +1,14 @@
 // Base de datos simulada de usuarios
 const users = [
     {
+        username: "junior",
+        password: "junior132",
+        fullName: "Admin pro Max",
+        department: "admin General",
+        permissions: ["view_claims", "update_claims", "add_photos"],
+        claims: [101, 102, 103]
+    },
+    {
         username: "iluminacion1",
         password: "ilum123",
         fullName: "Trabajador Iluminación",
